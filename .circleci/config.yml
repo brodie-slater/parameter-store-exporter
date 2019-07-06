@@ -10,7 +10,7 @@ jobs:
           command: pip3 install pipenv
       - run:
           name: Install dependencies
-          command: pipenv run install --dev
+          command: pipenv install --dev
       - run:
           name: Run tests
           command: pipenv run pytest
