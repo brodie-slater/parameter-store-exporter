@@ -1,5 +1,4 @@
 {
-    "python.pythonPath": "/home/brodie/.local/share/virtualenvs/ssm_tf-7LmpS03O/bin/python",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true
 }
