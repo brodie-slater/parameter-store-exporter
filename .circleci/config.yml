@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Install pipenv
-          command: pip3 install --user pipenv
+          command: pip3 install pipenv
       - run:
           name: Install dependencies
           command: pipenv run install --dev
